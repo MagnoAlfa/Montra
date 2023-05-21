@@ -17,12 +17,11 @@ body {
 /*Ini Cabesario/Header do site =navPages*/
 
 #navPages {
+    width: 100vw;
     grid-area: header;
     background-color: #7300C7;
     color: whitesmoke;
-    margin: 0%;
     border: 1px solid whitesmoke;
-    padding: 0%;
     display: grid;
     grid-template-rows: 10vh 5vh;
     grid-template-areas:
@@ -50,8 +49,8 @@ body {
     list-style-type: none;
     overflow: hidden;
     background-color: #00C773;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #navPages li {
@@ -72,16 +71,6 @@ body {
     background-color: #004B2B;
 }
 
-
-/*Ini Conteudo/Main do site =manPages*/
-
-#manPages {
-    grid-area: main;
-    display: block;
-    width: 100cqw;
-    background-color: blue;
-}
-
 /*Ini Rodapé/Footer do site =fotPages*/
 
 #fotPages {
@@ -90,4 +79,3 @@ body {
     color: whitesmoke;
     border: 1px solid whitesmoke;
 }
-

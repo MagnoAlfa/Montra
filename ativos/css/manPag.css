@@ -1,0 +1,54 @@
+/*Ini Conteudo/Main do site =manPages*/
+
+#manPages {
+    grid-area: main;
+    display: block;
+    width: 100vw;
+    background-color: blue;
+}
+
+#manPages {
+
+}
+
+#manPages section {
+    border-radius: 15px;
+    background-color: #555555;
+    margin: 1.1vh 1.5cqw 2vh 1cqw;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 40cqw 60cqw;
+    grid-template-rows: 5vh minmax(5vh, auto) 4vh;
+    grid-template-areas:
+        "titulo titulo"
+        "preolhada inf"
+        "link link";
+}
+
+#manPages section header {
+    grid-area: titulo;
+    background-color: #111;
+    color: whitesmoke;
+}
+
+#manPages section figure {
+    grid-area: preolhada;
+    padding: 0.8cqh 0.4cqw;
+}
+
+#manPages section figure img {
+    width: 30cqw;
+    height: auto;
+}
+
+#manPages section article {
+    grid-area: inf;
+    padding: 0.8cqh 0.4cqw;
+    background-color: #353535;
+}
+
+#manPages section footer {
+    grid-area: link;
+    padding: 0.8cqh 0.4cqw;
+    background-color: #303030;
+}
